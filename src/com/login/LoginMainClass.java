@@ -11,7 +11,8 @@ public class LoginMainClass {
 		loginDTO.setUsername("Arun");
 		loginDTO.setPassword("arun@98");
 		LoginController loginController=new LoginController();
-		System.out.println(loginController.ValidateUser(loginDTO));
+		String res=loginController.ValidateUser(loginDTO);
+		System.out.println(res);
 
 	}
 
